@@ -1,0 +1,18 @@
+{
+    "net_G": "coord_resnet50",
+    "ckptdir": "./alg3_sky_renderer/checkpoints_G_coord_resnet50",
+    "input_mode": "video",
+    "datadir": "./alg3_sky_renderer/test_videos/result.mp4",
+    "skybox": "mysky.jpg",
+    "in_size_w": 384,
+    "in_size_h": 384,
+    "out_size_w": 2882,
+    "out_size_h": 907,
+    "skybox_center_crop": 0.5,
+    "auto_light_matching": false,
+    "relighting_factor": 0.8,
+    "recoloring_factor": 0.5,
+    "halo_effect": true,
+    "output_dir": "./workfolder",
+    "save_jpgs": false
+}
